@@ -50,7 +50,31 @@ npm run dev
 
 ## Deployment
 
+### Vercel Deployment (Recommended)
+
 This project is configured for easy deployment on Vercel:
-1. Push to GitHub
-2. Connect to Vercel
-3. Deploy automatically on pushes to main branch
+
+1. Push to GitHub (already done)
+2. Go to [vercel.com](https://vercel.com) and sign in
+3. Click "New Project" and select this repository
+4. Vercel will automatically detect this is a Next.js project
+5. Click "Deploy" and your site will be live
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+### Environment Variables
+
+If you need environment variables, create a `.env.local` file based on `.env.example`:
+```bash
+cp .env.example .env.local
+```
+
+Then update the values as needed.
+
+### Local Production Build
+
+To test the production build locally:
+```bash
+npm run build
+npm start
+```
