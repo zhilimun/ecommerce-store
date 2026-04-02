@@ -1,0 +1,39 @@
+{
+  "name": "ecommerce-store",
+  "version": "1.0.0",
+  "description": "Modern e-commerce website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@heroicons/react": "^2.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhilimun/ecommerce-store.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "nextjs",
+    "tailwindcss",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhilimun/ecommerce-store/issues"
+  },
+  "homepage": "https://github.com/zhilimun/ecommerce-store#readme"
+}
